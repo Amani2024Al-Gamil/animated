@@ -1,0 +1,39 @@
+.ww{width: 100px;}
+.rel{position: relative;
+}
+.r1{background-image: url(oooo.jpeg);
+    background-size: cover;border-right: 5px solid black;}
+    .r2{background-image: url(pppp.jpeg);
+        background-size: cover;border-right: 5px solid black;}
+
+        .r3{background-image: url(rrr.jpeg);
+            background-size: cover;border-right: 5px solid black;}
+
+            .r4{background-image: url(images\ \(2\).jpeg);
+                background-size: cover;border-right: 5px solid black;}
+
+                .r5{background-image: url(images\ \(1\).jpeg);
+                    background-size: cover;
+                border-right: 5px solid black;}
+                    .r6{background-image: url(aaaaa.jpeg);
+                        background-size: cover;border-right: 5px solid black;}
+                                    
+
+
+
+
+
+
+
+
+
+.abs{position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+display: none;
+border-radius: 5px;}
+.rel:hover .abs{display: block;
+}
+.rel:hover{transform: scale(1.1);}
